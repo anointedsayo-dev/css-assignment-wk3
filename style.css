@@ -1,0 +1,100 @@
+.site-header {
+	min-height: 78px;
+	padding: 16px 28px;
+	background: #135d99;
+	color: #ffffff;
+}
+
+.logo {
+	padding: 16px 28px;
+	background: #ffffff;
+}
+
+.logo img {
+	display: block;
+	width: 20%;
+	height: auto;
+}
+.intro{
+    size:10px;
+    margin:1%;
+}
+h4{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.welcome-row {
+	display: flex;
+	align-items: center;
+	min-height: 80px;
+	margin-left: 150px;
+	gap: 24px;
+}
+
+.welcome-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0;
+}
+
+.welcome-text h1,
+.welcome-text h3 {
+	margin: 0;
+}
+
+.welcome-text h1 {
+	font-size: 2rem;
+}
+
+nav {
+	margin-left: auto;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav a,
+nav button {
+	color: #ffffff;
+	font: inherit;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav button {
+	padding: 8px 14px;
+	border: 1px solid #ffffff;
+	border-radius: 4px;
+	background: transparent;
+	cursor: pointer;
+}
+
+@media (max-width: 700px) {
+	.site-header {
+		min-height: 110px;
+	}
+
+	.welcome-row {
+		flex-wrap: wrap;
+		margin-left: 0;
+	}
+
+	nav {
+		width: 100%;
+	}
+
+	nav ul {
+		flex-wrap: wrap;
+	}
+}
